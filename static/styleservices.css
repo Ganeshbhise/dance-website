@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.container{
+    /* background-color:red; */
+    height: 500px;
+   
+   
+}
+
+h1{
+    background-color:yellowgreen;
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    color: black;
+}
+#section{
+
+ padding: 30px;
+ /* margin: 40px; */
+ background-color:green;
+}
+img{
+    width: 100%;
+    height: 467px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}

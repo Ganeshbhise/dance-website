@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body 
+    nav#navbar 
+        ul 
+            div#logo
+              img(src="/static/img/logo.png")
+              |MDA
+            li #[a(href="/") home]
+            li #[a(href="/") about us]
+            li #[a(href="/") services]
+            li #[a(href="/") contact us]
+
+    section#introsection 
+        div Welcome to my dance academy 
+        div.small enjoy the dancing
+
+    section#missionsection 
+        h2 our mission
+        div.card
+          h3 dance with enjoy
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/1.png")
+
+            div.card-content
+            p this is a profesional acedemy of dance u have ever visited
+        div.card
+          h3 expert coaching  
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/2.png")
+
+            div.card-content
+            p u will definitely enjoy and love this academy.  
+        div.card
+          h3 love dancing  
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/3.png")
+
+            div.card-content
+            p surroundings of our academy is perfectly lovable as we have garden too.
+    section#sponsorssection 
+        h2 our sponsors
+        div#sponsors
+          img(src="/static/img/logo1.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo2.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo3.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo4.png", alt="first sponsor not loaded",class="Spimage")
+        
+
+    footer#footer 
+        |Copyright &copy Mydaanceacademy 2021.|All Rights Reserved
+    script
+      include ../static/index.js

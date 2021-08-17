@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+    style
+      include  ../static/stylehome.css 
+
+block content  
+    section#introsection 
+        div Welcome to my dance academy 
+        div.small Enjoy the dancing
+
+    section#missionsection 
+        h2 OUR MISSION
+        div.card
+          h3 DANCE WITH ENJOY
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/1.png")
+
+            div.card-content
+            p This Is A Profesional Academy Of Dance You Have Ever Visited.
+        div.card
+          h3 EXPERT COACHING  
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/2.png")
+
+            div.card-content
+            p U Will Definitely Love And Enjoy This Academy.  
+        div.card
+          h3 LOVE DANCING 
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/3.png")
+
+            div.card-content
+            p Surroundings Of Our Academy Is Perfectly Lovable As We have Garden Too.
+    section#sponsorssection 
+        h2 OUR SPONSORS
+        div#sponsors
+          img(src="/static/img/logo1.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo2.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo3.png", alt="first sponsor not loaded",class="Spimage")
+          img(src="/static/img/logo4.png", alt="first sponsor not loaded",class="Spimage")     

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 14px;
+    color: white;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+
+}
+#navbar{
+    background-color:rgb(58, 49, 49);
+    padding: 14px 14px;
+    padding-bottom: 8px;
+    font-family: 'Chela One', cursive;
+}
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+
+    
+}
+#navbar li{
+list-style:none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 19px;
+
+}
+
+#navbar li a:hover{
+    color: rgb(7, 7, 7);
+    cursor:pointer;
+    background-color:rgb(185, 172, 166);
+    border-radius: 10px;
+    font-weight: bolder;
+    
+}
+#introsection{
+    color: white;
+background: center / cover no-repeat url("/static/bg.jpg");
+height: 360px;
+font-family: 'Baloo Bhai 2', cursive;
+background-color:red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+padding-bottom: 40px;
+
+}
+#introsection div.small{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#missionsection{
+    height: 300px;
+    background-color: rgb(241, 247, 247);
+}
+#missionsection h2{
+
+    padding-top: 11px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.card{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 29%;
+    height: 210px;
+    margin: 23px 30px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 20px;
+}
+.card-box{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.card-img{
+    height: 100px;
+    padding:0px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding:0 10px;
+}
+#sponsorssection{
+height: 320px;
+background-color:rgb(187, 145, 133);
+}
+#sponsorssection h2{
+    padding-top: 11px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#sponsors{
+    height: 192px;
+    margin: auto;
+    max-width: 1000px;
+}
+.Spimage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+height: 34px;
+background-color:black;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+}
